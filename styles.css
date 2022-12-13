@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+/* Navigation bar */
+
+.navigationBar {
+    width: 100%;
+    height: 45px;
+    background-color: rgba(0,0,0,0.8);
+    font-size: 13px;
+    margin: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigationBar li {
+    display: inline-block;
+}
+.navBarIcons {
+    color: rgb(164, 162, 162);
+    padding: 0 20px;
+}
+.navigationBarItems li a {
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(164, 162, 162);
+}
+.navigationBarItems li a:hover {
+    color: whitesmoke;
+    transition-duration: 1s;
+}
+.navBarIcons:hover {
+    color: whitesmoke;
+    transition-duration: 1s; 
+}
+
+/* iPhone 14 Presentation */
+
+.iPhone14PresentationWindow {
+    width: 100%;
+    height: 625px;
+    display: flex;
+    justify-content: center;
+}
+.iPhone14PresentationWindow {
+    background-image: url(https://www.apple.com/v/home/aw/images/heroes/iphone-14/hero_iphone14__fjmsqstr1ceq_large.jpg);
+    background-position: center center;
+}
+.iPhone14PresentationWindowText {
+    width: 20%;
+    height: 180px;
+    margin-top: 100px;
+    text-align: center;
+}
+.iPhone14PresentationWindowHeader {
+    font-size: 53px;
+    line-height: 1.07;
+    font-weight: 500;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.iPhone14PresentationWindowSubHeader {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.1;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 6px;
+}
+.iPhone14PresentationWindowLinkLeft {
+    font-size: 21px;
+    display: inline-block;
+    font-weight: 300;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .65em;
+    text-decoration: none;
+    margin-right: -4px;
+}
+.iPhone14PresentationWindowLinkRight {
+    font-size: 21px;
+    display: inline-block;
+    font-weight: 300;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .65em;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+/* Holiday Gift Guide */
+
+.holidayGiftGuideWindow {
+    width: 100%;
+    height: 700px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
