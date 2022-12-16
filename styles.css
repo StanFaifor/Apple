@@ -18,6 +18,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 .navigationBar li {
     display: inline-block;
@@ -48,6 +49,7 @@ html {
     height: 625px;
     display: flex;
     justify-content: center;
+    margin-bottom: 37px;
 }
 .iPhone14PresentationWindow {
     background-image: url(https://www.apple.com/v/home/aw/images/heroes/iphone-14/hero_iphone14__fjmsqstr1ceq_large.jpg);
@@ -95,11 +97,439 @@ html {
 
 .holidayGiftGuideWindow {
     width: 100%;
-    height: 700px;
-    background-color: blue;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+video {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    z-index: 1;
+}
+.holidayGiftGuideTextArea {
+    margin-top: 350px;
+    position: absolute;
+    z-index: 2;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+}
+.giftGuideText {
+    color: whitesmoke;
+    font-size: 46px;
+    line-height: 1.07;
+    font-weight: 600;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.giftGuideSubText {
+    color: whitesmoke;
+    font-size: 28px;
+    line-height: 1.10;
+    font-weight: 400;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 6px;
+}
+.giftGuideLink {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 21px;
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .65em;
+}
+
+/* Apple Card Window */
+
+.appleCardWindow {
+    width: 100%;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+}
+.appleCardWindow {
+    background-image: url(https://www.apple.com/v/home/aw/images/heroes/apple-card-december/hero__dvsxv8smkkgi_large.jpg);
+    background-position: center center;
+}
+.appleCardWindowText {
+    width: 36%;
+    height: 300px;
+    text-align: center;
+    margin-top: 50px;
+}
+.appleCardLogo {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    align-items: center;
+}
+.appleCardLogo > i {
+    font-size: 49px;
+}
+.appleCardWindowHeader {
+    font-size: 28px;
+    line-height: 1.10;
+    font-weight: 400;
+    color: whitesmoke;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.appleCardWindowSubHeader {
+    font-size: 21px;
+    line-height: 1.19;
+    font-weight: 400;
+    color: whitesmoke;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 15px;
+}
+.appleCardWindowLinkLeft {
+    font-size: 21px;
+    display: inline-block;
+    font-weight: 300;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .65em;
+    text-decoration: none;
+    margin-right: -4px;
+}
+.appleCardWindowLinkRight {
+    font-size: 21px;
+    display: inline-block;
+    font-weight: 300;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .65em;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+/* Apple Products Collection */
+
+.appleProductsCollectionWindow {
+    margin-top: 13px;
+    width: 100%;
+    height: 2000px;
+    background-color: blue;
+}
 
 
+.iPhone14Pro-and-iPad {
+    width: 100%;
+    height: 600px;
+    background-color: blueviolet;
+}
+.iPhone14Pro {
+    width: 48%;
+    height: 580px;
+    margin: 0 0 17px 17px;
+    float: left;
+    background-image: url(https://www.apple.com/v/home/aw/images/promos/iphone-14-pro/promo_iphone14pro__4n4twj56fzmu_large.jpg);
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+.iPhone14ProText {
+    width: 40%;
+    height: 200px;
+}
+.iPhone14ProHeader {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 53px;
+    text-align: center;
+    color: whitesmoke;
+}
+.iPhone14ProSubHeader {
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 4px;
+    text-align: center;
+    color: whitesmoke;
+}
+.iPhone14ProLinkLeft {
+    font-size: 17px;
+    display: inline-block;
+    font-weight: 300;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .65em;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.iPhone14ProLinkRight {
+    font-size: 17px;
+    display: inline-block;
+    font-weight: 300;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .65em;
+    text-decoration: none;
+    margin-left: 33px;
+}
+
+
+.iPad {
+    width: 48%;
+    height: 580px;
+    margin: 0 17px 0 17px;
+    float: right;
+    background-image: url(https://www.apple.com/v/home/aw/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg);
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+.iPadText {
+    width: 40%;
+    height: 200px;
+}
+.iPadHeader {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 53px;
+    text-align: center;
+}
+.iPadSubHeader {
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 4px;
+    text-align: center;
+}
+.iPadLinkLeft {
+    font-size: 17px;
+    display: inline-block;
+    font-weight: 300;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .65em;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.iPadLinkRight {
+    font-size: 17px;
+    display: inline-block;
+    font-weight: 300;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .65em;
+    text-decoration: none;
+    margin-left: 33px;
+}
+
+
+
+.airPods-and-appleWatchSeries8 {
+    width: 100%;
+    height: 600px;
+    background-color: blueviolet;
+}
+
+
+.airPods {
+    width: 48%;
+    height: 580px;
+    margin: 0 0 17px 17px;
+    float: left;
+    background-image: url(https://www.apple.com/v/home/aw/images/promos/airpods-holiday-2022/promo_airpods_holiday__fqg7rt8b4vma_large.jpg);
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+.airPodsTextArea {
+    width: 40%;
+    height: 200px;
+    margin-top: 50px;
+}
+.airPodsTextArea > img {
+    padding-left: 45%;
+    padding-right: 45%;
+}
+.airPodsHeader {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+}
+.airPodsSubHeader {
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 4px;
+    text-align: center;
+}
+.airPodsLink {
+    font-size: 17px;
+    display: inline-block;
+    font-weight: 300;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .65em;
+    text-decoration: none;
+    margin-left: 39%;
+    margin-right: 35%;
+}
+
+
+.appleWatchSeries8 {
+    width: 48%;
+    height: 580px;
+    margin: 0 17px 17px 0;
+    float: right;
+    background-image: url(https://www.apple.com/v/home/aw/images/promos/apple-watch-series-8/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+.appleWatchSeries8TextArea {
+    width: 40%;
+    height: 200px;
+    margin-top: 55px;
+}
+.appleWatchSeries8TextArea > img {
+    padding-left: 25%;
+}
+.appleWatchSeries8SubHeader {
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 4px;
+    text-align: center;
+}
+.appleWatchSeries8LinkLeft {
+    font-size: 17px;
+    display: inline-block;
+    font-weight: 300;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .65em;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.appleWatchSeries8LinkRight {
+    font-size: 17px;
+    display: inline-block;
+    font-weight: 300;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .65em;
+    text-decoration: none;
+    margin-left: 33px;
+}
+
+
+.appleWatchUltra-and-appleArcade {
+    width: 100%;
+    height: 600px;
+    background-color: blueviolet;
+}
+
+
+.appleWatchUltra {
+    width: 48%;
+    height: 580px;
+    margin: 0 0 17px 17px;
+    float: left;
+    background-image: url(https://www.apple.com/v/home/aw/images/promos/apple-watch-ultra/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+.appleWatchUltraTextArea {
+    width: 40%;
+    height: 200px;
+    margin-top: 55px;
+}
+.appleWatchUltraTextArea > img {
+    padding-left: 25%;
+}
+.appleWatchUltraSubHeader {
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 4px;
+    text-align: center;
+}
+.appleWatchUltraLinkLeft {
+    font-size: 17px;
+    display: inline-block;
+    font-weight: 300;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .65em;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.appleWatchUltraLinkRight {
+    font-size: 17px;
+    display: inline-block;
+    font-weight: 300;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .65em;
+    text-decoration: none;
+    margin-left: 33px;
+}
+
+
+.appleArcade {
+    width: 48%;
+    height: 580px;
+    margin: 0 0 17px 17px;
+    float: left;
+    background-image: url(https://www.apple.com/v/home/aw/images/promos/arcade-mylittlepony-manemerge/mlp_promo__sfbi0rap38iu_large.jpg);
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+.appleArcadeTextArea {
+    width: 40%;
+    height: 200px;
+    margin-top: 55px;
+}
+.appleArcadeTextArea > img {
+    padding-left: 25%;
+}
+.appleArcadeTopSubHeader {
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 4px;
+    margin-bottom: 360px;
+    text-align: center;
+    color: whitesmoke;
+}
+.appleArcadeBottomSubHeader {
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 4px;
+    margin-top: 360px;
+    text-align: center;
+    color: whitesmoke;
+}
+.appleArcadeLinkLeft {
+    font-size: 17px;
+    display: inline-block;
+    font-weight: 300;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .65em;
+    text-decoration: none;
+    margin-left: 40px;
+    color: whitesmoke;
+}
+.appleArcadeLinkRight {
+    font-size: 17px;
+    display: inline-block;
+    font-weight: 300;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: .65em;
+    text-decoration: none;
+    margin-left: 33px;
+    color: whitesmoke;
+}
