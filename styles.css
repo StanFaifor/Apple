@@ -210,16 +210,16 @@ video {
 .appleProductsCollectionWindow {
     margin-top: 13px;
     width: 100%;
-    height: 2000px;
-    background-color: blue;
+    height: 1800px;
 }
 
 
 .iPhone14Pro-and-iPad {
     width: 100%;
     height: 600px;
-    background-color: blueviolet;
 }
+
+
 .iPhone14Pro {
     width: 48%;
     height: 580px;
@@ -326,7 +326,6 @@ video {
 .airPods-and-appleWatchSeries8 {
     width: 100%;
     height: 600px;
-    background-color: blueviolet;
 }
 
 
@@ -401,6 +400,7 @@ video {
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     margin-top: 4px;
     text-align: center;
+    color: whitesmoke;
 }
 .appleWatchSeries8LinkLeft {
     font-size: 17px;
@@ -425,7 +425,6 @@ video {
 .appleWatchUltra-and-appleArcade {
     width: 100%;
     height: 600px;
-    background-color: blueviolet;
 }
 
 
@@ -478,7 +477,7 @@ video {
 .appleArcade {
     width: 48%;
     height: 580px;
-    margin: 0 0 17px 17px;
+    margin: 0 17px 17px 20px;
     float: left;
     background-image: url(https://www.apple.com/v/home/aw/images/promos/arcade-mylittlepony-manemerge/mlp_promo__sfbi0rap38iu_large.jpg);
     background-position: center center;
@@ -532,4 +531,198 @@ video {
     text-decoration: none;
     margin-left: 33px;
     color: whitesmoke;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding-left: 14%;
+    padding-right: 14%;
+}
+.footerTextArea {
+    width: 73%;
+    height: 350px;
+    padding-top: 15px;
+    border-bottom: 1px solid #a9a9a9;
+}
+.footerTextArea > ul > li {
+    color: #a9a9a9;
+    padding-bottom: 15px;
+    list-style: none;
+}
+.footerNotes {
+    font-size: 13px;
+}
+.strong {
+    color: gray;
+}
+.footerTextAreaLinks {
+    text-decoration: none;
+    color: gray;
+}
+.footerLinkArea {
+    width: 73%;
+    height: 515px;
+    display: flex;
+    justify-content: center;
+}
+.column1 {
+    width: 20%;
+    height: 500px;
+    margin: 0 10px 0 0;
+}
+.column2, .column3, .column4 {
+    width: 20%;
+    height: 500px;
+    margin: 0 10px 0 10px;
+}
+.column5 {
+    width: 20%;
+    height: 500px;
+    margin: 0 0 0 10px;
+}
+.column1 {
+    color: #a9a9a9;
+    padding-bottom: 15px;
+    list-style: none;
+}
+.footerColumn1Links {
+    list-style: none;
+    padding-top: 10px;
+    font-size: 13px;
+}
+.footerColumn1Links > li {
+    padding-bottom: 10px;
+}
+.footerColumn1Links > li > a {
+    text-decoration: none;
+    color: #a9a9a9;
+}
+.footerColumn1Links > li > a:hover {
+    border-bottom: 1px solid #a9a9a9;
+}
+.column2 {
+    color: #a9a9a9;
+    padding-bottom: 15px;
+    list-style: none;
+}
+.footerColumn2Links {
+    list-style: none;
+    padding-top: 10px;
+    font-size: 13px;
+}
+.footerColumn2Links > li {
+    padding-bottom: 10px;
+}
+.footerColumn2Links > li > a {
+    text-decoration: none;
+    color: #a9a9a9;
+}
+.footerColumn2Links > li > a:hover {
+    border-bottom: 1px solid #a9a9a9;
+}
+.paddingTop {
+    padding-top: 15px;
+}
+.column3 {
+    color: #a9a9a9;
+    padding-bottom: 15px;
+    list-style: none;
+}
+.footerColumn3Links {
+    list-style: none;
+    padding-top: 10px;
+    font-size: 13px;
+}
+.footerColumn3Links > li {
+    padding-bottom: 10px;
+}
+.footerColumn3Links > li > a {
+    text-decoration: none;
+    color: #a9a9a9;
+}
+.footerColumn3Links > li > a:hover {
+    border-bottom: 1px solid #a9a9a9;
+}
+.column4 {
+    color: #a9a9a9;
+    padding-bottom: 15px;
+    list-style: none;
+}
+.footerColumn4Links {
+    list-style: none;
+    padding-top: 10px;
+    font-size: 13px;
+}
+.footerColumn4Links > li {
+    padding-bottom: 10px;
+}
+.footerColumn4Links > li > a {
+    text-decoration: none;
+    color: #a9a9a9;
+}
+.footerColumn4Links > li > a:hover {
+    border-bottom: 1px solid #a9a9a9;
+}
+.column5 {
+    color: #a9a9a9;
+    padding-bottom: 15px;
+    list-style: none;
+}
+.footerColumn5Links {
+    list-style: none;
+    padding-top: 10px;
+    font-size: 13px;
+}
+.footerColumn5Links > li {
+    padding-bottom: 10px;
+}
+.footerColumn5Links > li > a {
+    text-decoration: none;
+    color: #a9a9a9;
+}
+.footerColumn5Links > li > a:hover {
+    border-bottom: 1px solid #a9a9a9;
+}
+.appleContactInfo {
+    width: 73%;
+    height: 100px;
+    border-bottom: 1px solid #a9a9a9;
+    font-size: 13px;
+    color: #a9a9a9;
+}
+.appleContactInfoLinks {
+    text-decoration: none;
+}
+.footerLegalInfo {
+    width: 73%;
+    height: 200px;
+    font-size: 13px;
+    padding-top: 8px;
+    padding-bottom: 18px;
+}
+.copyrightInfo {
+    padding-right: 10px;
+    color: #a9a9a9;
+}
+.footerLegalInfoLinks {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #a9a9a9;
+}
+.worldLocationInfo {
+    float: right;
+    color: #a9a9a9;
+}
+.footerLegalInfo > span > a {
+    text-decoration: none;
+    color: #a9a9a9;
+}
+.footerLegalInfo > span > a:hover {
+    border-bottom: 1px solid #a9a9a9;
 }
