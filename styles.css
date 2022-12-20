@@ -571,6 +571,9 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+
+
 .column1 {
     width: 20%;
     height: 500px;
@@ -586,6 +589,9 @@ footer {
     height: 500px;
     margin: 0 0 0 10px;
 }
+
+
+
 .column1 {
     color: #a9a9a9;
     padding-bottom: 15px;
@@ -606,6 +612,9 @@ footer {
 .footerColumn1Links > li > a:hover {
     border-bottom: 1px solid #a9a9a9;
 }
+
+
+
 .column2 {
     color: #a9a9a9;
     padding-bottom: 15px;
@@ -629,6 +638,9 @@ footer {
 .paddingTop {
     padding-top: 15px;
 }
+
+
+
 .column3 {
     color: #a9a9a9;
     padding-bottom: 15px;
@@ -649,6 +661,9 @@ footer {
 .footerColumn3Links > li > a:hover {
     border-bottom: 1px solid #a9a9a9;
 }
+
+
+
 .column4 {
     color: #a9a9a9;
     padding-bottom: 15px;
@@ -669,6 +684,9 @@ footer {
 .footerColumn4Links > li > a:hover {
     border-bottom: 1px solid #a9a9a9;
 }
+
+
+
 .column5 {
     color: #a9a9a9;
     padding-bottom: 15px;
@@ -689,6 +707,9 @@ footer {
 .footerColumn5Links > li > a:hover {
     border-bottom: 1px solid #a9a9a9;
 }
+
+
+
 .appleContactInfo {
     width: 73%;
     height: 100px;
